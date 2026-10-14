@@ -1,2 +1,15 @@
 # AutoPodcastor
-AutoPodcastor Android development releases and in-app updates
+
+把已有台本制作成个人播客的 Android 应用。此仓库提供安装包和应用内更新清单。
+
+[下载最新版](https://github.com/slowpoke0520/AutoPodcastor/releases/latest)
+
+安装要求：Android 10 或以上，ARM64。当前是开发版。
+
+旧版请直接覆盖安装 0.3.0，保留应用数据。之后可以在“设置 → 应用更新”检查、下载和安装新版本；系统可能要求允许此应用安装未知来源应用。也支持选择本地新版 APK。
+
+长台本在正文框内滚动，预览、保存和制作按钮固定在底部。自定义声音风格填写后以该说明为准，修改风格要制作新音频才能听到变化，已有音频保留。
+
+MiMo API Key 由用户在手机内填写，存入设备安全存储。发布包和更新清单不包含用户 Key、台本或音频。
+
+本地自动化验证不替代手机验收；真实 MiMo 音频效果、锁屏、文件选择和系统覆盖安装仍需实际设备验证。
